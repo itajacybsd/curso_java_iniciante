@@ -26,5 +26,13 @@ public class Matrizes {
 
         System.out.println(matrizEmLinha[2][1]);
 
+        for (int i = 0; i < matrizEmLinha.length; i++) {
+            String linha = "";
+            for (int j = 0; j < matrizEmLinha[i].length; j++) {
+                linha += " | " + matrizEmLinha[i][j];
+            }
+            System.out.println(linha);
+        }
+
     }
 }
