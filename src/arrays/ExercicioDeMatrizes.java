@@ -2,13 +2,19 @@ package arrays;
 
 public class ExercicioDeMatrizes {
     static void main() {
-        int[][] produtos = new int[3][2];
-        produtos[0][0] = 50;
-        produtos[0][1] = 20;
-        produtos[1][0] = 40;
-        produtos[1][1] = 10;
-        produtos[2][0] = 60;
-        produtos[2][1] = 25;
+//        int[][] produtos = new int[3][2];
+//        produtos[0][0] = 50;
+//        produtos[0][1] = 20;
+//        produtos[1][0] = 40;
+//        produtos[1][1] = 10;
+//        produtos[2][0] = 60;
+//        produtos[2][1] = 25;
+
+        int[][] produtos = {
+                {50,20},
+                {40,10},
+                {60,25},
+        };
 
         int total = 0;
 
