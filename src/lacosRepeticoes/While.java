@@ -16,7 +16,9 @@ public class While {
         while (senha != 1234) {
             System.out.println("Digite a Senha: ");
             senha = Integer.parseInt(IO.readln());
-
         }
+            System.out.println("Senha ok! ");
+
+
     }
 }
