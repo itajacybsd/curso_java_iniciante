@@ -4,7 +4,7 @@ public class Strings {
     static void main() {
         String nome = "Paulo";
 
-        IO.println("nome: " + nome);
+        System.out.println("nome: " + nome);
 
         String vazia = "";
 
